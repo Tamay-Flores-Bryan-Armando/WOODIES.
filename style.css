@@ -1,0 +1,50 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-table {
+  width: 50%;
+  height: 800px;
+  background: url(../img/header-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.header-container {
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-ligth .navbar-nav .show > .nav-limk {
+  color: #daa520;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.header {
+  min-height: 150px;
+  margin-bottom: 120px;
+}
+.header-table {
+  width: 50%;
+  height: 800px;
+  .nav-link.active {
+    color: #daa520 !important;
+  }
+  .woodies-text-center {
+    display: flex;
+    align-items: center;
+  }
+  .woodies-furniture h3 {
+    color: #3e3f43;
+    font-size: 2.25rem;
+  }
+  .woodies-furniture p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
